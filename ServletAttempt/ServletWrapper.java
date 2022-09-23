@@ -1,3 +1,4 @@
+//referenced and modified from https://www.tutorialspoint.com/servlets/servlets-first-example.htm
 
 // Import required java libraries
 import java.io.*;
