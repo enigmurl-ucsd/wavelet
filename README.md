@@ -62,7 +62,13 @@ What will each of these URLs do?
 
 It's basically an implementation on the default Java Servlet library with Apache Tomcat.
 
-To tun the program, do the following:
+Just in case if we need to make the size of this repo smaller:
+
+[servlet jar](https://mavenlibs.com/jar/file/tomcat/servlet-api)
+
+[apache tomcat](https://tomcat.apache.org/download-80.cgi)
+
+To run the program, do the following:
 
 ```bash
 cd ServletAttempt
