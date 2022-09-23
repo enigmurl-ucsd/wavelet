@@ -1263,3 +1263,49 @@
 22-Sep-2022 22:03:30.822 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 22-Sep-2022 22:03:30.861 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 22-Sep-2022 22:03:30.868 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Sep-2022 22:14:41.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.82
+22-Sep-2022 22:14:41.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 8 2022 21:26:07 UTC
+22-Sep-2022 22:14:41.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.82.0
+22-Sep-2022 22:14:41.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Sep-2022 22:14:41.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.10.102.1-microsoft-standard-WSL2
+22-Sep-2022 22:14:41.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Sep-2022 22:14:41.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+22-Sep-2022 22:14:41.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.13+8-Ubuntu-0ubuntu1.20.04
+22-Sep-2022 22:14:41.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+22-Sep-2022 22:14:41.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82
+22-Sep-2022 22:14:41.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82
+22-Sep-2022 22:14:41.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Sep-2022 22:14:41.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Sep-2022 22:14:41.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+22-Sep-2022 22:14:41.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Sep-2022 22:14:41.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/conf/logging.properties
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/temp
+22-Sep-2022 22:14:41.027 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+22-Sep-2022 22:14:41.109 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Sep-2022 22:14:41.131 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 492 ms
+22-Sep-2022 22:14:41.181 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Sep-2022 22:14:41.182 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.82]
+22-Sep-2022 22:14:41.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/docs]
+22-Sep-2022 22:14:41.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/docs] has finished in [411] ms
+22-Sep-2022 22:14:41.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/examples]
+22-Sep-2022 22:14:45.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/examples] has finished in [3,495] ms
+22-Sep-2022 22:14:45.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/host-manager]
+22-Sep-2022 22:14:45.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/host-manager] has finished in [228] ms
+22-Sep-2022 22:14:45.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/manager]
+22-Sep-2022 22:14:45.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/manager] has finished in [234] ms
+22-Sep-2022 22:14:45.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/ROOT]
+22-Sep-2022 22:14:45.847 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/calen/Documents/GitHub/springNotSpring15l/ServletAttempt/tomcat/apache-tomcat-8.5.82/webapps/ROOT] has finished in [271] ms
+22-Sep-2022 22:14:45.851 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Sep-2022 22:14:45.866 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4734 ms
+22-Sep-2022 22:14:47.845 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Sep-2022 22:14:47.849 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Sep-2022 22:14:47.874 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Sep-2022 22:14:47.883 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
