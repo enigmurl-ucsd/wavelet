@@ -27,9 +27,8 @@ public class ServletWrapper extends HttpServlet {
          ret = program.handleRequest(
                request.getRequestURI() + "?" + request.getQueryString());
       }
-      // Actual logic goes here.
       PrintWriter out = response.getWriter();
-      out.println("<h1>" + ret + "</h1>");
+      out.println(ret);
    }
 
    public void destroy() {
