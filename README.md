@@ -68,6 +68,17 @@ Just in case if we need to make the size of this repo smaller:
 
 [apache tomcat](https://tomcat.apache.org/download-80.cgi)
 
+**new edit**
+
+I figured that the students don't even have to compile the `ServerWrapper.java` file because the .class file of that is already in the right place. So, they can just do the following to run the program:
+
+```bash
+javac ProgramClass.java
+mv ProgramClass.class tomcat/apache-tomcat-8.5.82/webapps/ROOT/WEB-INF/classes/
+bash tomcat/apache-tomcat-8.5.82/bin/catalina.sh run
+```
+
+
 To run the program, do the following:
 
 ```bash
