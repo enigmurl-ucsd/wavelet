@@ -13,16 +13,29 @@ import com.sun.net.httpserver.HttpServer;
 //DO NOT CHANGE THIS METHOD
 public class Server {
     public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151, but not 22!");
+            return;
+        }
+
+        if(args[0].equals("22")){
+            System.out.println("Invalid port number! Try any number between 1024 to 49151, but not 22!");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+        
         //create server
-        HttpServer server = HttpServer.create(new InetSocketAddress(8080),
+        HttpServer server = HttpServer.create(new InetSocketAddress(port),
                 0);
 
+        //initialize program
+        Program program = new Program();
         //create request entrypoint
         server.createContext("/", new HttpHandler() {
             @Override
             public void handle(final HttpExchange exchange) throws IOException {
-                //initialize program
-                Program program = new Program();
+                
                 
                 //form return body after being handled by program
                 String ret = "<html>" + program.handleRequest(
@@ -38,6 +51,6 @@ public class Server {
 
         //start the server
         server.start();
-        System.out.println("Server Started! Visit http://localhost:8080 to visit.");
+        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
     }
 }
