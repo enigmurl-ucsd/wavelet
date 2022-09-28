@@ -1,20 +1,22 @@
 import java.io.IOException;
+import java.net.URI;
 
 class Handler implements URLHandler {
-    // the num to be modified
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
     int num = 0;
 
-    public String handleRequest(String url) {
+    public String handleRequest(URI url) {
         System.out.println(url);
-        if (url.equals("/")) {
+        if (url.getPath().equals("/")) {
             return String.format("Number: %d", num);
-        } else if (url.equals("/increment")) {
+        } else if (url.getPath().equals("/increment")) {
             num += 1;
             return String.format("Number incremented!");
         } else {
-            if (url.contains("/add?")) {
-                int indexOfQ = url.indexOf("?");
-                String[] parameters = url.substring(indexOfQ + 1).split("=");
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add")) {
+                String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("count")) {
                     num += Integer.parseInt(parameters[1]);
                     return String.format("Number increased by %s! It's now %d", parameters[1], num);
