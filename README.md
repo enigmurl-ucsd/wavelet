@@ -1,5 +1,5 @@
 To run the server:
 ```bash
-javac Program.java
+javac Server.java
 java Server [port]
 ```
