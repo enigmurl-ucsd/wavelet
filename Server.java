@@ -14,12 +14,12 @@ import com.sun.net.httpserver.HttpServer;
 public class Server {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151, but not 22!");
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
         }
 
         if(args[0].equals("22")){
-            System.out.println("Invalid port number! Try any number between 1024 to 49151, but not 22!");
+            System.out.println("Did you know that port 22 is the one used by ssh? We can't use it for a web server.");
             return;
         }
 
