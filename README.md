@@ -1,6 +1,6 @@
 To run the server:
 ```bash
-javac Server.java
-java Server [port]
-//e.g: java Server 8080
+javac Server.java Program.java
+java Main [port]
+//e.g: java Main 8080
 ```
