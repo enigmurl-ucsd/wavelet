@@ -20,7 +20,7 @@ public class Program {
                     return String.format("Number increased by %s!", parameter[1]);
                 }
             }
-            return "<b>404 Not Found!</b>";
+            return "404 Not Found!";
         }
     }
 }
