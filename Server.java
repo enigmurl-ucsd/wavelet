@@ -1,5 +1,6 @@
-//referenced and modified from
-//https://dzone.com/articles/simple-http-server-in-java
+// A simple web server using Java's built-in HttpServer
+
+// Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -38,8 +39,6 @@ class ServerHttpHandler implements HttpHandler {
     }
 }
 
-//Hosts a simple server and handles all the requests in Program class
-//DO NOT CHANGE THIS METHOD
 public class Server {
     public static void start(int port, URLHandler handler) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
