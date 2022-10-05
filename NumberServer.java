@@ -34,11 +34,6 @@ class NumberServer {
             return;
         }
 
-        if(args[0].equals("22")){
-            System.out.println("Did you know that port 22 is the one used by ssh? We can't use it for a web server.");
-            return;
-        }
-
         int port = Integer.parseInt(args[0]);
 
         Server.start(port, new Handler());
