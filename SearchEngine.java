@@ -9,14 +9,13 @@ class SearchHandler implements URLHandler {
 
     public String handleRequest(URI url) {
         String[] parameters = url.getQuery().split("=");
-        System.out.println(parameters[0]);
         if (url.getPath().equals("/add")) {
-            if (parameters[0].equals("s")) {   
+            if (parameters != null && parameters.length >= 2 && parameters[0].equals("s")) {   
                 set.add(parameters[1]); 
                 return String.format("Word added!");
             }
         } else if (url.getPath().equals("/search")){
-            if (parameters[0].equals("s")) {   
+            if (parameters != null && parameters.length >= 2 && parameters[0].equals("s")) {   
                 StringBuilder ret = new StringBuilder();
                 for (String cmp : set) {
                     if (cmp.contains(parameters[1])) ret.append(cmp + " ");
