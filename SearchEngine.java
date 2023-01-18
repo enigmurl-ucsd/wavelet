@@ -5,7 +5,7 @@ import java.util.*;
 class SearchHandler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    private HashSet<String> set = new HashSet<>();
+    private List<String> set = new ArrayList<>();
 
     public String handleRequest(URI url) {
         String[] parameters = url.getQuery().split("=");
